@@ -37,8 +37,9 @@
   .profile-pic {
     display: inline;
     margin: 0 auto;
-    height: 98%;
-    width: 98%;
+    height: 100%;
+    width: 100%;
+    border: #242424;
   }
   
   a {
@@ -96,4 +97,28 @@
   
   .bright {
     background: var(--bright-color-4);
+  }
+
+  
+
+  .icon{
+    position: relative;
+    right:160px;
+    size: 10px;
+    font-size: 22px;
+  }
+
+  .icons{
+
+    position: relative;
+    right: 150px;
+    size: 10px;
+    font-size: 22px;
+  }
+
+  .position{
+
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
   }
