@@ -38,8 +38,8 @@
   .profile-pic {
     display: inline;
     margin: 0 auto;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
     border: #242424;
   }
   
