@@ -7,17 +7,18 @@
     --bright-color-2: #808080;
     --bright-color-3: #808080;
     --bright-color-4: #6093d2;
+    --my-color: #404040;
   }
   
   body {
-    background: var(--darkest-color);
+    background: var(--my-color);
     color: var(--lightest-color);
     font-family: 'Roboto', sans-serif;
   }
   
   .container {
     width: 90%;
-    max-width: 1000px;
+    max-width: 500px;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -37,8 +38,8 @@
   .profile-pic {
     display: inline;
     margin: 0 auto;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     border: #242424;
   }
   
@@ -100,25 +101,31 @@
   }
 
   
+  
+
+
 
   .icon{
     position: relative;
-    right:160px;
-    size: 10px;
+    right:auto;
+    size: auto;
     font-size: 22px;
+    padding: 5px;
   }
 
-  .icons{
-
-    position: relative;
-    right: 150px;
-    size: 10px;
-    font-size: 22px;
-  }
+  
 
   .position{
 
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 10px;
+    padding-top: 15px;
+
+  }
+
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .container{
+      width: 100%;
+    }
   }
